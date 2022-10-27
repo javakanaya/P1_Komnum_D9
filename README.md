@@ -19,8 +19,8 @@ Lalu kita akan mencari Nilai X3 dengan menggunakan Rumus
 
 Nilai yang `X3` yang diperoleh akan menggantikan nilai `X1` atau `X2` pada iterasi selanjutnya dengan syarat
 
-> jika `f(X3) < 0`, maka `X2 = X3`\
-jika `f(X3) > 0`, maka `X1 = X3`
+> jika `f(X3) * f(X2) > 0`, maka `X2 = X3`\
+jika `f(X3) * f(X2) < 0`, maka `X1 = X3`
 
 Satu putaran iterasi telah selesai, iterasi tersebut dilakukan hingga `f(X3)` yang diperoleh  mendekati atau sama dengan 0 sehingga didapatkan akar - akar dari persamaan `f(X)`
 
