@@ -28,9 +28,10 @@ Satu putaran iterasi telah selesai, iterasi tersebut dilakukan hingga `f(X3)` ya
 
 
 
+![bolzano](https://user-images.githubusercontent.com/87474722/198264667-c028061f-4785-449a-94a1-c0f53e772b59.jpeg)
 
 
 
 Implementasi metode bolzano, untuk mencari solusi dari suatu persamaan matematika.
 
-![image_2022-10-27_07-16-38](https://user-images.githubusercontent.com/87474722/198162620-5c12e87b-78bc-43b6-923c-d787b75d11f6.png)
+
