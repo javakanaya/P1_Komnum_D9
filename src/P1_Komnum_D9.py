@@ -49,8 +49,8 @@ def init():
     return left, right, curve,
 
 def animate(frame):
-    a, b = bisection(xMin, xMax, frame)
-    print(f"f(x1) : {a:.10f} \t f(x2) : {b:.10f}")
+    a, b= bisection(xMin, xMax, frame)
+    print(f"x1 : {a:.10f} \t x2 : {b:.10f} ")
     left.set_data([a, a], [yMin, yMax])
     right.set_data([b, b], [yMin, yMax])
     curve.set_data(x, y)
