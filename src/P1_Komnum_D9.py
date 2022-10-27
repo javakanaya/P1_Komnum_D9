@@ -3,7 +3,7 @@ from matplotlib import animation
 import numpy as np
 
 
-print("Its Running v1.0")
+print("Metode Bolzano")
 
 def f(x):
     return 3*x**3 - 100 + 2*x
@@ -12,7 +12,6 @@ def bisection(a, b, n):
     xLeft = a
     xRight = b
     for i in range(n):
-        print("xLeft : ", xLeft, "xRight : ", xRight)
 
         c = (xLeft + xRight) / 2.0
         prod = f(xLeft) * f(c)
@@ -51,6 +50,7 @@ def init():
 
 def animate(frame):
     a, b = bisection(xMin, xMax, frame)
+    print(f"f(x1) : {a:.10f} \t f(x2) : {b:.10f}")
     left.set_data([a, a], [yMin, yMax])
     right.set_data([b, b], [yMin, yMax])
     curve.set_data(x, y)
