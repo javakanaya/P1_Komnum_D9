@@ -8,6 +8,25 @@
 - Afiq Fawwaz Haidar - 5025211246
 
 ## Penjelasan Metode Bolzano
+Metode `Bolzano` / `Biseksi (Bagi Dua)` / `Pembagian Interval` adalah metode yang digunakan untuk mencari akar-akar persamaan non linear melalui persamaan iterasi `f(X)`. Dalam Metode Bolzano, diperlukan 2 Nilai X sebelum memulai iterasi
+
+> `X1` dengan `f(X1)` > 0\
+`X2` dengan `f(X2)` < 0
+
+Lalu kita akan mencari Nilai X3 dengan menggunakan Rumus
+
+>`X3` = (`X1` + `X2`) / 2
+
+Nilai yang `X3` yang diperoleh akan menggantikan nilai `X1` atau `X2` pada iterasi selanjutnya dengan syarat
+
+> jika `f(X3) < 0`, maka `X2 = X3`\
+jika `f(X3) > 0`, maka `X1 = X3`
+
+Satu putaran iterasi telah selesai, iterasi tersebut dilakukan hingga `f(X3)` yang diperoleh  mendekati atau sama dengan 0 sehingga didapatkan akar - akar dari persamaan `f(X)`
+
+## Implementasi Algoritma Metode Bolzano dalam Bahasa Python
+
+
 
 
 
